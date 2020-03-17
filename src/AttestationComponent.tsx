@@ -41,8 +41,10 @@ export const AttestationComponent: React.FC<LocalProps> = ({identite, dateNaissa
                 </p>
                 <p className="Underligne" >
                     Remplissez le formulaire ci-dessous puis :
-                    - Sur ordinateur dans votre navigateur faites "imprimer..." puis "Enregistrer au format PDF"
-                    - Sur téléphone dans votre navigateur faites "partager" puis "Imprimer" et ensuite "Enregistrer au format PDF"
+                    <ul>
+                        <li>Sur ordinateur dans votre navigateur faites "imprimer..." puis "Enregistrer au format PDF"</li>
+                        <li>Sur téléphone dans votre navigateur faites "partager" puis "Imprimer" et ensuite "Enregistrer au format PDF"</li>
+                    </ul>
                 </p>
             </Paper>
             <Paper elevation={3} className="Paper">
