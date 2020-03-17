@@ -40,7 +40,9 @@ export const AttestationComponent: React.FC<LocalProps> = ({identite, dateNaissa
                     En application de l'article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :
                 </p>
                 <p className="Underligne" >
-                    Remplissez le formulaire ci-dessous, puis dans votre navigateur faites "imprimer..." puis "Enregistrer au format PDF"
+                    Remplissez le formulaire ci-dessous puis :
+                    - Sur ordinateur dans votre navigateur faites "imprimer..." puis "Enregistrer au format PDF"
+                    - Sur téléphone dans votre navigateur faites "partager" puis "Imprimer" et ensuite "Enregistrer au format PDF"
                 </p>
             </Paper>
             <Paper elevation={3} className="Paper">
