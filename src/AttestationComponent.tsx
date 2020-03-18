@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import './App.css';
 import Paper from '@material-ui/core/Paper';
-import { TextField, FormControlLabel, Checkbox } from '@material-ui/core';
+import { TextField, FormControlLabel, Checkbox, Link } from '@material-ui/core';
 
 interface LocalProps {
     identite: string | undefined;
@@ -123,6 +123,21 @@ export const AttestationComponent: React.FC<LocalProps> = ({identite, dateNaissa
                     <ListItem>
                         <TextField id="date" label="Le" />
                     </ListItem> 
+                </p>
+            </Paper>
+            <Paper elevation={3} className="Paper Discret">
+                <p className="FormDetail">
+                    <ListItem>
+                        Site développé confiné à Nantes par <Link className="App-link" href="https://www.linkedin.com/in/florent-t%C3%A9taud-2b3a298a/"> Florent Tétaud</Link>
+                    </ListItem>
+                    <ListItem>
+                        Aucune de vos données ne quitte votre navigateur, rien n'est utilisé ou conservé
+                    </ListItem>
+                    <ListItem>
+                      <Link className="App-link" href="https://github.com/TheBeardedGaul/covid19sanspapier" >
+                        Code open source disponible sur github
+                      </Link>
+                    </ListItem>
                 </p>
             </Paper>
         </>

@@ -26,7 +26,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb !important;
+  margin-left: 0.25em !important;
 }
 
 @keyframes App-logo-spin {
@@ -67,4 +68,8 @@ p {
 .Underligne {
   text-decoration: underline;
   font-size: x-large;
+}
+
+.Discret {
+  font-size: small;
 }
