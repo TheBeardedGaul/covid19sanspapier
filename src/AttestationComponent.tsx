@@ -132,13 +132,17 @@ export const AttestationComponent: React.FC = () => {
             </Paper>
             <Paper elevation={3} className="Paper">
                 <p className="Underligne">
-                    <ListItem>Remplissez le formulaire ci-dessous puis :
+                    <ListItem>
+                        Remplissez le formulaire ci-dessous pour générer l'attestation
                     </ListItem>
                     <ListItem>
-                        Sur ordinateur dans votre navigateur faites "imprimer..." puis "Enregistrer au format PDF"
+                        Depuis la fin de matinée du 18 Mars 2020, il semblerait que les versions dématérialisées comme celle-ci ne soit plus accéptées lors des controles.
                     </ListItem>
                     <ListItem>
-                        Sur téléphone dans votre navigateur faites "partager" puis "Imprimer" et ensuite "Enregistrer au format PDF"
+                        Cette mesure semble survenir suite à d'autres sites comme celui-ci qui conservaient vos données personnelles.
+                    </ListItem>
+                    <ListItem>
+                        Ce site n'a à AUCUN moment conservé vos données, utilisé des cookies ou des librairies tierces de statistiques ou de supervision du traffic.
                     </ListItem>
                 </p>
             </Paper>
