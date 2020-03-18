@@ -125,7 +125,7 @@ export const AttestationComponent: React.FC<LocalProps> = ({identite, dateNaissa
                     </ListItem> 
                 </p>
             </Paper>
-            <Paper elevation={3} className="Paper Discret">
+            <Paper elevation={3} className="Paper">
                 <p className="FormDetail">
                     <ListItem>
                         Site développé confiné à Nantes par <Link className="App-link" href="https://www.linkedin.com/in/florent-t%C3%A9taud-2b3a298a/"> Florent Tétaud</Link>
